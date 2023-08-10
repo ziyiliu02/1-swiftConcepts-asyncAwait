@@ -12,6 +12,8 @@
 		6424709D2A84C3660014B90A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6424709C2A84C3660014B90A /* Assets.xcassets */; };
 		642470A12A84C3660014B90A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 642470A02A84C3660014B90A /* Preview Assets.xcassets */; };
 		64FE10D02A85075D000AACEF /* AsyncMethod1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64FE10CF2A85075D000AACEF /* AsyncMethod1.swift */; };
+		64FE10D32A851091000AACEF /* AsyncMethod2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64FE10D22A851091000AACEF /* AsyncMethod2.swift */; };
+		64FE10D52A8512BD000AACEF /* NetworkManagerAsync.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64FE10D42A8512BD000AACEF /* NetworkManagerAsync.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		6424709E2A84C3660014B90A /* __swiftConcepts_asyncAwait.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = __swiftConcepts_asyncAwait.entitlements; sourceTree = "<group>"; };
 		642470A02A84C3660014B90A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		64FE10CF2A85075D000AACEF /* AsyncMethod1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncMethod1.swift; sourceTree = "<group>"; };
+		64FE10D22A851091000AACEF /* AsyncMethod2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncMethod2.swift; sourceTree = "<group>"; };
+		64FE10D42A8512BD000AACEF /* NetworkManagerAsync.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManagerAsync.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +61,7 @@
 				642470982A84C3640014B90A /* __swiftConcepts_asyncAwaitApp.swift */,
 				642470A72A84C9150014B90A /* Synchronous */,
 				64FE10CC2A85068D000AACEF /* Async Method 1 */,
+				64FE10D12A851066000AACEF /* Async Method 2 */,
 				6424709C2A84C3660014B90A /* Assets.xcassets */,
 				6424709E2A84C3660014B90A /* __swiftConcepts_asyncAwait.entitlements */,
 				6424709F2A84C3660014B90A /* Preview Content */,
@@ -86,6 +91,15 @@
 				64FE10CF2A85075D000AACEF /* AsyncMethod1.swift */,
 			);
 			path = "Async Method 1";
+			sourceTree = "<group>";
+		};
+		64FE10D12A851066000AACEF /* Async Method 2 */ = {
+			isa = PBXGroup;
+			children = (
+				64FE10D22A851091000AACEF /* AsyncMethod2.swift */,
+				64FE10D42A8512BD000AACEF /* NetworkManagerAsync.swift */,
+			);
+			path = "Async Method 2";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -160,6 +174,8 @@
 			files = (
 				6424709B2A84C3640014B90A /* ContentView.swift in Sources */,
 				642470992A84C3640014B90A /* __swiftConcepts_asyncAwaitApp.swift in Sources */,
+				64FE10D32A851091000AACEF /* AsyncMethod2.swift in Sources */,
+				64FE10D52A8512BD000AACEF /* NetworkManagerAsync.swift in Sources */,
 				64FE10D02A85075D000AACEF /* AsyncMethod1.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
