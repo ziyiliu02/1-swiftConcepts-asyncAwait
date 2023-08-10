@@ -11,6 +11,7 @@
 		6424709B2A84C3640014B90A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6424709A2A84C3640014B90A /* ContentView.swift */; };
 		6424709D2A84C3660014B90A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6424709C2A84C3660014B90A /* Assets.xcassets */; };
 		642470A12A84C3660014B90A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 642470A02A84C3660014B90A /* Preview Assets.xcassets */; };
+		64FE10D02A85075D000AACEF /* AsyncMethod1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64FE10CF2A85075D000AACEF /* AsyncMethod1.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		6424709C2A84C3660014B90A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6424709E2A84C3660014B90A /* __swiftConcepts_asyncAwait.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = __swiftConcepts_asyncAwait.entitlements; sourceTree = "<group>"; };
 		642470A02A84C3660014B90A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		64FE10CF2A85075D000AACEF /* AsyncMethod1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncMethod1.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 			children = (
 				642470982A84C3640014B90A /* __swiftConcepts_asyncAwaitApp.swift */,
 				642470A72A84C9150014B90A /* Synchronous */,
+				64FE10CC2A85068D000AACEF /* Async Method 1 */,
 				6424709C2A84C3660014B90A /* Assets.xcassets */,
 				6424709E2A84C3660014B90A /* __swiftConcepts_asyncAwait.entitlements */,
 				6424709F2A84C3660014B90A /* Preview Content */,
@@ -75,6 +78,14 @@
 				6424709A2A84C3640014B90A /* ContentView.swift */,
 			);
 			path = Synchronous;
+			sourceTree = "<group>";
+		};
+		64FE10CC2A85068D000AACEF /* Async Method 1 */ = {
+			isa = PBXGroup;
+			children = (
+				64FE10CF2A85075D000AACEF /* AsyncMethod1.swift */,
+			);
+			path = "Async Method 1";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -149,6 +160,7 @@
 			files = (
 				6424709B2A84C3640014B90A /* ContentView.swift in Sources */,
 				642470992A84C3640014B90A /* __swiftConcepts_asyncAwaitApp.swift in Sources */,
+				64FE10D02A85075D000AACEF /* AsyncMethod1.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
