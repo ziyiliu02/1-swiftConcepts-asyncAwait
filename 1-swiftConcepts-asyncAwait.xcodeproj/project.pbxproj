@@ -53,7 +53,7 @@
 			isa = PBXGroup;
 			children = (
 				642470982A84C3640014B90A /* __swiftConcepts_asyncAwaitApp.swift */,
-				6424709A2A84C3640014B90A /* ContentView.swift */,
+				642470A72A84C9150014B90A /* Synchronous */,
 				6424709C2A84C3660014B90A /* Assets.xcassets */,
 				6424709E2A84C3660014B90A /* __swiftConcepts_asyncAwait.entitlements */,
 				6424709F2A84C3660014B90A /* Preview Content */,
@@ -67,6 +67,14 @@
 				642470A02A84C3660014B90A /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		642470A72A84C9150014B90A /* Synchronous */ = {
+			isa = PBXGroup;
+			children = (
+				6424709A2A84C3640014B90A /* ContentView.swift */,
+			);
+			path = Synchronous;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
